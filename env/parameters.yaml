@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:dks-9try/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: dsmith@cloudbees.com
+  token: vault:dks-9try/pipelineUser:token
+  username: deanesmith
+prow:
+  hmacToken: vault:dks-9try/prow:hmacToken
